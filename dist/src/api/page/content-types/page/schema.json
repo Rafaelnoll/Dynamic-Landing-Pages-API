@@ -24,6 +24,13 @@
             "type": "uid",
             "targetField": "title",
             "required": true
+        },
+        "sections": {
+            "type": "dynamiczone",
+            "components": [
+                "section.section-two-columns"
+            ],
+            "required": true
         }
     }
 }
