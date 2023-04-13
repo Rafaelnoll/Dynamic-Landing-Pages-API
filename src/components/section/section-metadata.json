@@ -2,7 +2,8 @@
   "collectionName": "components_section_section_metadata",
   "info": {
     "displayName": "section_metadata",
-    "icon": "digital-tachograph"
+    "icon": "digital-tachograph",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,9 +17,8 @@
       "type": "string",
       "required": true,
       "maxLength": 50,
-      "private": true,
       "minLength": 3,
-      "regex": "^[a-zA-Z]+([0-9]*[a-zA-Z]+)*$"
+      "regex": "^[a-zA-Z-]+([0-9]*[a-zA-Z]+)*$"
     },
     "background": {
       "type": "boolean",
